@@ -20,7 +20,7 @@ class CamshiftTracker
 		float hranges_[];
 		const float* phranges_;
 		TrackObject trk_obj_;
-		cv::Mat hsv_, mask_, hist_, hue_;
+		cv::Mat hsv_, mask_, hue_;
 	public:
 		void setImage(const cv::Mat& hsv);
 		void setColorParam(int vmin, int vmax, int smin, int hsize, float hmin, float hmax);
